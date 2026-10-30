@@ -1,0 +1,6 @@
+customer_id,email,created_at
+cust_001,ALICE@example.com,2024-01-03T10:00:00Z
+cust_002,bob@example.com,2024-01-04T11:30:00+00:00
+cust_002,duplicate@example.com,2024-01-05T12:00:00Z
+cust_003,not-an-email,2024-01-06T09:00:00Z
+cust_004,missing-date@example.com,

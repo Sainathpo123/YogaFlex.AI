@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+outputs/*.db-shm
+outputs/*.db-wal
+outputs/large.db
+outputs/benchmark.db
+data/generated/

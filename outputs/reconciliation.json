@@ -1,0 +1,50 @@
+{
+  "runs": [
+    {
+      "accepted_rows": 2,
+      "dataset": "customers",
+      "duration_ms": 56,
+      "ended_at": "2026-10-30T07:10:57.040Z",
+      "failure_reason": null,
+      "input_rows": 5,
+      "output_rows": 2,
+      "reconciliation": {
+        "accepted_rows": 2,
+        "counts_reconcile": true,
+        "input_rows": 5,
+        "rejected_rows": 3,
+        "target_rows": 2
+      },
+      "rejected_rows": 3,
+      "run_id": "c3f0afb0c7c74b53966b082cdcfad991",
+      "source_file": "customers.csv",
+      "source_sha256": "dc86183e9724c98d9074d68bac971b2d2d29b0fce234e94c635e215c5387ab4b",
+      "started_at": "2026-10-30T07:10:56.984Z",
+      "status": "completed"
+    },
+    {
+      "accepted_rows": 3,
+      "dataset": "orders",
+      "duration_ms": 38,
+      "ended_at": "2026-10-30T07:10:57.101Z",
+      "failure_reason": null,
+      "input_rows": 7,
+      "output_rows": 3,
+      "reconciliation": {
+        "accepted_rows": 3,
+        "counts_reconcile": true,
+        "input_rows": 7,
+        "referenced_customers": 2,
+        "rejected_rows": 4,
+        "target_rows": 3,
+        "total_amount_cents": 3775
+      },
+      "rejected_rows": 4,
+      "run_id": "29bc76344db449f5b479b28788054186",
+      "source_file": "orders.csv",
+      "source_sha256": "f9de6fc5cb0ea9bc28e6c7e79abc4ee221a840ad1d630345375898d3b35ed176",
+      "started_at": "2026-10-30T07:10:57.063Z",
+      "status": "completed"
+    }
+  ]
+}
